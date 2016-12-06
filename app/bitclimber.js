@@ -547,7 +547,7 @@ var BitClimberChart = React.createClass({
      } else if (num < 1.02) {
        Dispatcher.sendAction('UPDATE_BC_STOP_MULTI', { error: 'STOP_TOO_LOW' });
        // Ensure multiplier is <= max allowed multiplier (100x for now)
-     } else if (num > 20000) {
+     } else if (num > 2000000) {
        Dispatcher.sendAction('UPDATE_BC_STOP_MULTI', { error: 'STOP_TOO_HIGH' });
        // Ensure no more than 2 decimal places of precision
      } else if (helpers.getPrecision(num) > 2) {
