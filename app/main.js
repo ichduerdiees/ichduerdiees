@@ -15,10 +15,10 @@
 /////////////////////////////
 
 var config = {
-  app_id: 2509, //Bit-Exo
-  app_name: 'test',
+  app_id: 926, //Bit-Exo
+  app_name: 'Bit-Exo',
   recaptcha_sitekey: '6LefHRcTAAAAAGwCE3EB_5A_L3Ay3wVZUCISid-D',
-  redirect_uri: 'https://pages.github.io/ichduerdiees',
+  redirect_uri: 'https://bit-exo.com/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   be_api_uri: 'https://bit-exo.com/',
@@ -26,7 +26,7 @@ var config = {
   be_uri: '//bit-exo.com',
   force_https_redirect: true,
   house_edge: 0.001,
-  chat_buffer_size: 10,
+  chat_buffer_size: 99,
   // - The amount of bets to show on screen in each tab
   bet_buffer_size: 50,
   debug: false
